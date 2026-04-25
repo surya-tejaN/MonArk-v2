@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
+# MonArk — AI-Powered Dating Platform
 
-## Project info
+MonArk is a full-stack dating platform designed to improve match quality using structured compatibility scoring, backend systems, and AI-driven personalization.
 
-**URL**: https://lovable.dev/projects/f278e5cf-2518-488d-bb35-172e4505688f
+---
 
-## How can I edit this code?
+## 🚀 Overview
 
-There are several ways of editing your application.
+MonArk focuses on creating meaningful connections by combining structured onboarding data, intelligent matching algorithms, and scalable backend infrastructure.
 
-**Use Lovable**
+The platform is built as a production-ready MVP with real-time features and user-focused design.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f278e5cf-2518-488d-bb35-172e4505688f) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧠 Key Features
 
-**Use your preferred IDE**
+- Compatibility engine using structured features and weighted scoring  
+- Real-time messaging system using Supabase Realtime  
+- Backend APIs for onboarding, profile management, and matchmaking  
+- Secure authentication and role-based access control  
+- AI-enhanced personalization using LLM-based features  
+- Scalable architecture with cloud deployment  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🏗️ Tech Stack
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
+**Frontend**
+- React (Vite)
 - TypeScript
-- React
-- shadcn-ui
 - Tailwind CSS
+- shadcn-ui  
 
-## How can I deploy this project?
+**Backend & Infrastructure**
+- Supabase (PostgreSQL, Auth, Realtime)
+- Serverless APIs  
 
-Simply open [Lovable](https://lovable.dev/projects/f278e5cf-2518-488d-bb35-172e4505688f) and click on Share -> Publish.
+**AI / ML**
+- LLM-based features  
+- Retrieval-based logic (RAG-inspired)  
+- Matching and ranking algorithms  
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## ⚙️ Architecture
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+User Input → Backend APIs → Database → Matching Engine → AI Layer → Results
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## 📊 My Contributions
+
+- Designed and implemented backend APIs and system architecture  
+- Built compatibility scoring and ranking logic  
+- Developed real-time messaging and matchmaking workflows  
+- Integrated AI-driven features for personalization  
+- Contributed to deployment and system scalability  
+
+---
+
+## 🌐 Project Link
+
+https://joinmonark.com
+
+---
+
+## 🤝 Team
+
+- Bryant McCray  
+- Surya Teja Nulu  
+
+---
+
+## 📌 Status
+
+Currently in MVP stage with active development and iteration.
+
+---
+
+## ⭐ Summary
+
+MonArk demonstrates the ability to design and build a full-stack system combining backend engineering, real-time infrastructure, and AI-driven features.
